@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Flask Application</title>
+    </head>
+    <body>
+        <form action="predict" method="POST">
+            Experience :  <input type="number" name="Experience" placeholder="Enter Your Experience" required= "required" />
+            <br>
+            Test_Score : <input type="number" name="Test_Score" placeholder="Enter test score" required = "required" />
+            <br>
+            Interview_Score : <input type="number" name="Interview_Score" placeholder="Enter Interview Score" required="required" />
+            <br>
+            <button type="submit"> Predict</button>
+        </form>
+        {{prediction_text}}
+    </body>
+
+
+
+</html>
