@@ -1,0 +1,5 @@
+# Install gunicorn in your envirnomrnt 
+# Create requirements.txt file  as by default Procfile will look for this file 
+# Create a file called as Procfile
+# Upload all the files in gihub 
+
