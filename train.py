@@ -22,4 +22,3 @@ regression.fit(X,y)
 print('Model training is done')
 print(regression.predict([[1,8,9]]))  # Lets predict how much salary i will get ig a person have experience =1,test_score = 8,interview_score =9
 joblib.dump(regression,'hiring_model.pkl')        # For saving the model 
-
